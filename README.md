@@ -7,7 +7,7 @@
 
 # MingledJumble
 
-A collection of diverse web pages that I wanted to create.
+A collection of diverse web pages📃 that I wanted to create.😎
 
 ## 👪 Contributor(s)
 
@@ -27,9 +27,9 @@ This website lets people know what events related to developers are held every m
 
 #### 10/15 ~ 10/16 - Web Hosting Test Turned Out Well!
 
-<img src="README-DOC/hosting-success.png" width="1000" height="300" />
+<img src="README-DOC/hosting-success.png" width="1000" height="400" />
 <img src="README-DOC/configurated-domain.png" width="750" height="200" />
-<img src="README-DOC/running-server.png" width="1000" height="300" />
+<img src="README-DOC/running-server.png" width="1000" height="400" />
 
 Ubuntu VPS 서버에서 Nginx를 활용하여 Node.js Application을 도메인에 호스팅할 수 있도록 하였다. 
 
