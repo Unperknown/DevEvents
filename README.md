@@ -7,9 +7,11 @@
 
 # MingledJumble
 
-A collection of diverse web pages that I wanted to create.
+A collection of diverse web pages📃 that I wanted to create.😎
 
 ## 👪 Contributor(s)
+
+Everyone can open an issue or pull request anytime.
 
 - [🔗Unperknown](https://github.com/Unperknown)
 
@@ -27,11 +29,14 @@ This website lets people know what events related to developers are held every m
 
 #### 10/15 ~ 10/16 - Web Hosting Test Turned Out Well!
 
-<img src="README-DOC/hosting-success.png" width="1000" height="300" />
+<img src="README-DOC/hosting-success.png" width="1000" height="400" />
 <img src="README-DOC/configurated-domain.png" width="750" height="200" />
-<img src="README-DOC/running-server.png" width="1000" height="300" />
+<img src="README-DOC/running-server.png" width="1000" height="400" />
 
-Ubuntu VPS 서버에서 Nginx를 활용하여 Node.js Application을 도메인에 호스팅할 수 있도록 하였다. 
+Ubuntu VPS 서버에서 Nginx를 활용하여 Node.js Application을 도메인에 호스팅할 수 있도록 하였다. 앞으로 전체적인 요구 사항은 다음과 같다.
+1. 메인 페이지는 개발자 행사의 목록으로 이루어져 있고 개발자 로드맵 페이지 이동할 수 있는 요소가 있어야 한다.
+2. 개발자 로드맵은 웹 페이지로 한 눈에 알아볼 수 있도록 한다.
+3. 가능하다면 행사 관련 사이트의 데이터를 크롤링할 수 있도록 해야 한다.
 
 Pros
 - 웹 호스팅의 과정을 직접 구현하면서 세심히 알아볼 수 있었고 Nginx에 대해서 배울 수 있었다.
@@ -40,6 +45,7 @@ Pros
 Cons
 - 도메인 및 서버를 구매하는 데 비용이 많이 들었다.
 - 앞으로 웹 UI/UX를 설계하고 전체적인 디자인을 해야 한다.
+- 웹사이트에 대한 구체적인 요구사항을 정해야 한다.
 
 ## Project 2 - Unperknown's Résumé
 
