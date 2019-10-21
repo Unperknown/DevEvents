@@ -31,6 +31,10 @@ app.use(express.static(__dirname + '/public'));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
+var forceSsl = require('express-force-ssl');
+
+app.use(forceSsl);
+
 app.use(function(req, res, next) {
   next(createError(404));
 });

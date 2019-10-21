@@ -9,8 +9,8 @@ const https = require('https');
 const portNumber = '3000';
 
 const options = {
-  key: fs.readFileSync('/etc/ssl/private/dev-events_space.key'),
-  cert: fs.readFileSync('/etc/ssl/certs/ssl-bundle.crt')
+  key: fs.readFileSync('/etc/ssl/private/dev-events_space.key', 'utf8'),
+  cert: fs.readFileSync('/etc/ssl/certs/ssl-bundle.crt', 'utf8')
 };
 
 const port = normalizePort(process.env.PORT || portNumber);
