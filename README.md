@@ -57,11 +57,11 @@ Favicon을 디자인했다.
 
 도메인에 대한 SSL 인증서를 구매하여 HTTPS 연결이 되도록 하였다. 
 
-<img src="README-DOC/encrypted-https-server.png" width="1000" height="400" />
-<img src="README-DOC/encrypted-https-server2.png" width="1000" height="400" />
+<img src="README-DOC/encrypted-https-server.png" width="700" height="400" />
+<img src="README-DOC/encrypted-https-server2.png" width="800" height="500" />
 
 Pros
-- 서버 연결이 암호화되어 보다 *보안*을 갖출 수 있게 되었다!
+- 서버 연결이 암호화되어 보다 **보안**을 갖출 수 있게 되었다!
 
 Cons
 - HTTPS 연결을 위해서 수정해야 할 각 작업들을 파악하는 데 헤매서 시간이 많이 걸렸다.(방화벽 HTTPS 연결 허용, SSL 인증서 설정 등)
