@@ -3,7 +3,6 @@
 const app = require('../app');
 const debug = require('debug')('devevents:server');
 const fs = require('fs');
-const http = require('http');
 const https = require('https');
 
 const portNumber = '3000';
@@ -16,11 +15,7 @@ const options = {
 const port = normalizePort(process.env.PORT || portNumber);
 app.set('port', port);
 
-const httpServer = http.createServer(app).listen(port);
 const httpsServer = https.createServer(options, app).listen(port);
-
-httpServer.on('error', onError);
-httpServer.on('listening', onListening);
 
 httpsServer.on('error', onError);
 httpsServer.on('listening', onListening);
@@ -63,7 +58,7 @@ function onError(error) {
 }
 
 function onListening() {
-  var addr = server.address();
+  var addr = httpsServer.address();
   var bind = typeof addr === 'string'
     ? 'pipe ' + addr
     : 'port ' + addr.port;
