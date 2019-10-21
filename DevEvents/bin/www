@@ -2,17 +2,28 @@
 
 const app = require('../app');
 const debug = require('debug')('devevents:server');
+const fs = require('fs');
 const http = require('http');
+const https = require('https');
 
 const portNumber = '3000';
+
+const options = {
+  key: fs.readFileSync('/etc/ssl/private/dev-events_space.key'),
+  cert: fs.readFileSync('/etc/ssl/certs/ssl-bundle.crt')
+};
 
 const port = normalizePort(process.env.PORT || portNumber);
 app.set('port', port);
 
-const server = http.createServer(app).listen(port);
+const httpServer = http.createServer(app).listen(port);
+const httpsServer = https.createServer(options, app).listen(port);
 
-server.on('error', onError);
-server.on('listening', onListening);
+httpServer.on('error', onError);
+httpServer.on('listening', onListening);
+
+httpsServer.on('error', onError);
+httpsServer.on('listening', onListening);
 
 function normalizePort(val) {
   var port = parseInt(val, 10);

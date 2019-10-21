@@ -47,6 +47,14 @@ Cons
 - 앞으로 웹 UI/UX를 설계하고 전체적인 디자인을 해야 한다.
 - 웹사이트에 대한 구체적인 요구사항을 정해야 한다.
 
+#### 10/17 - Designed Favicon
+
+Favicon을 디자인했다.
+
+<img src="README-DOC/favicon.png" width="400" height="400" />
+
+#### 10/18, 10/21 - HTTPS/SSL Connection Configuration
+
 ## Project 2 - Unperknown's Résumé
 
 Everyone can see Unperknown's résumé at this website.
