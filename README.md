@@ -70,7 +70,7 @@ Cons
 
 메인 페이지에 대한 간단한 프로토타입을 짰다.
 
-<img src="README-DOC/main-page-prototype.png" width="900" height="600" />
+<img src="README-DOC/main-page-prototype.png" width="950" height="700" />
 
 Pros
 - 웹사이트의 가장 중요한 부분의 전체적인 틀이 갖추어지게 되었다.
