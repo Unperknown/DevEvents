@@ -1,12 +1,31 @@
-$background_color : #000000;
+$background_color : #FFFFFF;
+$text_color : #FFFFFF;
+$header_color : #000000;
+$section1_color : #000000;
+$section2_color : #FFFFFF;
+$section3_color : #CCAAFF;
+$section4_color : #FFDDEE;
+
+*
+  padding: 0;
+  margin: 0;
 
 body
+  color: $text_color;
   background-color: $background_color;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
 
-#header
+header
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: $header_color;
   width: 100%;
   height: 40px;
+
+section
+  position: relative;
+  width: 100%;
+  height: 100vh;
 
 #logo
   width: 90px;
@@ -15,8 +34,42 @@ body
   margin-left: auto;
   margin-right: auto;
 
-#title
-  font-family: trajan-color, serif;
-  color: gold;
-  font-style: normal;
-  font-weight: 400;
+#event-date
+  font-size: 70px;
+
+#event-location
+  font-size: 80px;
+  
+#main-title
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -35%);
+  width: 1000px;
+  height: 70px;
+
+#g-star-icon
+  position: absolute;
+  bottom: 0;
+  left: 55%;
+  transform: translate(-55%, 0%);
+
+  width: 500px;
+  height: 500px;
+
+#devfest-title
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  height: 250px;
+
+#g-star-section
+  background-color: $section1_color;
+
+#devfest-section
+  background-color: $section2_color;
+
+#others-section
+  background-color: $section3_color;

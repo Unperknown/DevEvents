@@ -55,16 +55,32 @@ Favicon을 디자인했다.
 
 #### 10/18, 10/21 - HTTPS/SSL Connection Configuration
 
-도메인에 대한 SSL 인증서를 구매하여 HTTPS 연결이 되도록 하였다. 
+도메인에 대한 SSL 인증서를 구매하여 HTTPS 연결이 되도록 하였다.
 
 <img src="README-DOC/encrypted-https-server.png" width="700" height="400" />
 <img src="README-DOC/encrypted-https-server2.png" width="800" height="500" />
+
+이때, SSL 인증서의 보안을 지키기 위해 SSL 포트를 이용하여 서버로 파일을 전송하였다.
+
+<img src="README-DOC/transferring-files.png" width="1000" height="90" />
 
 Pros
 - 서버 연결이 암호화되어 보다 **보안**을 갖출 수 있게 되었다!
 
 Cons
 - HTTPS 연결을 위해서 수정해야 할 각 작업들을 파악하는 데 헤매서 시간이 많이 걸렸다.(방화벽 HTTPS 연결 허용, SSL 인증서 설정 등)
+
+#### 10/22 - Main Page Design
+
+메인 페이지에 대한 간단한 프로토타입을 짰다.
+
+<img src="README-DOC/main-page-prototype.png" width="900" height="600" />
+
+Pros
+- 웹사이트의 가장 중요한 부분의 전체적인 틀이 갖추어지게 되었다.
+
+Cons
+- 저작권에 대한 결정을 해야 한다. 현재 이 웹사이트는 비상업적인 사이트로 저작권은 없는 것으로 처리하려고 한다.
 
 ## Project 2 - Unperknown's Résumé
 
