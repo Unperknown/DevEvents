@@ -60,10 +60,6 @@ Favicon을 디자인했다.
 <img src="README-DOC/encrypted-https-server.png" width="700" height="400" />
 <img src="README-DOC/encrypted-https-server2.png" width="800" height="500" />
 
-이때, SSL 인증서의 보안을 지키기 위해 SSL 포트를 이용하여 서버로 파일을 전송하였다.
-
-<img src="README-DOC/transferring-files.png" width="1000" height="90" />
-
 Pros
 - 서버 연결이 암호화되어 보다 **보안**을 갖출 수 있게 되었다!
 
