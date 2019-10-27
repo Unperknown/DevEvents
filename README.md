@@ -82,7 +82,7 @@ Cons
 
 행사 내용에 대한 JSON Data를 불러오도록 하였다. 현재 일반적인 크기의 브라우저밖에 지원을 안하지만 모바일, 태블릿 등에서도 UI가 깨지지 않도록 해야 한다.
 
-<img src="README-DOC/main-page-prototype.png" width="950" height="700" />
+<img src="README-DOC/loaded-json-data.png" width="950" height="700" />
 
 Pros
 - 행사 내용과 관련된 데이터를 '서버에서' 불러올 수 있어서 앞으로 크롤링까지 더하면 자동화할 수 있게 된다.
