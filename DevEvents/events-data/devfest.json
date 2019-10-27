@@ -1,0 +1,75 @@
+{
+    "devfests" : [{
+            "title" : "GDG DevFest Suwon '19",
+            "price" : "₩5,900",
+            "location" : "광교 경기문화창조허브",
+            "date" : "11/5",
+            "hyperlink" : "https://festa.io/events/623",
+            "imagelink" : "https://cf.festa.io/img/2019-10-17/264659f5-dc04-4972-a9ee-c289b4a47638.png"
+        },
+        {
+            "title" : "GDG DevFest Jeju '19",
+            "price" : "₩10,000",
+            "location" : "제주플레이스캠프",
+            "date" : "11/9 ~ 11/10",
+            "hyperlink" : "https://festa.io/events/653",
+            "imagelink" : "https://cf.festa.io/img/2019-10-24/36cacf1b-19b6-447a-bd98-ae8a2c09a43d.jpg"
+        },
+        {
+            "title" : "GDG DevFest Pangyo '19",
+            "price" : "₩10,000",
+            "location" : "카카오 판교오피스",
+            "date" : "11/15",
+            "hyperlink" : "https://festa.io/events/606",
+            "imagelink" : ""
+        },
+        {
+            "title" : "GDG Cloud Busan DevFest '19",
+            "price" : "₩5,000",
+            "location" : "부산대",
+            "date" : "11/16",
+            "hyperlink" : "https://festa.io/events/611",
+            "imagelink" : ""
+        },
+        {
+            "title" : "GDG DevFest on Campus '19",
+            "price" : "₩10,000",
+            "location" : "이화여자대학교",
+            "date" : "11/16",
+            "hyperlink" : "https://festa.io/events/654",
+            "imagelink" : ""
+        },
+        {
+            "title" : "GDG DevFest Daejeon '19",
+            "price" : "₩5,000",
+            "location" : "대덕소프트웨어마이스터고등학교 창의관",
+            "date" : "11/23",
+            "hyperlink" : "https://festa.io/events/613",
+            "imagelink" : ""
+        },
+        {
+            "title" : "GDG DevFest WebTech '19",
+            "price" : "₩20,000",
+            "location" : "구글 스타트업 캠퍼스",
+            "date" : "11/23",
+            "hyperlink" : "https://festa.io/events/628",
+            "imagelink" : ""
+        },
+        {
+            "title" : "GDG DevFest Busan '19",
+            "price" : "₩10,000",
+            "location" : "경남정보대 센텀캠퍼스",
+            "date" : "11/30",
+            "hyperlink" : "https://festa.io/events/557",
+            "imagelink" : ""
+        },
+        {
+            "title" : "GDG DevFest Songdo '19",
+            "price" : "₩10,000",
+            "location" : "인천대 미추홀캠퍼스",
+            "date" : "11/30",
+            "hyperlink" : "https://festa.io/events/571",
+            "imagelink" : ""
+        }
+    ]
+}
