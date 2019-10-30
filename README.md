@@ -27,7 +27,7 @@ This website lets people know what events related to developers are held every m
 
 ### Initial Deployment!
 
-<iframe src="https://giphy.com/embed/J2n3nsmSiX8t9l45mj" width="480" height="319" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/J2n3nsmSiX8t9l45mj">via GIPHY</a></p>
+<img src="https://media.giphy.com/media/J2n3nsmSiX8t9l45mj/giphy.gif"/>
 
 ### Daily Progress
 
