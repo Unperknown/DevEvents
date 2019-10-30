@@ -4,6 +4,7 @@ $header_color : #000000;
 $section1_color : #000000;
 $section2_color : #FFFFFF;
 $section3_color : #FFFFFF;
+$section4_color : #FFFFFF;
 $event_info_color : #FFFFFF;
 
 *
@@ -17,7 +18,7 @@ a
 body
   color: $text_color;
   background-color: $background_color;
-  font-family: 'Big Shoulders Text', cursive;
+  font-family: 'Noto Sans KR', sans-serif;
 
 header
   position: sticky;
@@ -44,7 +45,7 @@ header
   width: 100%;
   display: block;
   overflow: auto;
-  height: 150vh;
+  height: 140vh;
   background-color: $section2_color;
   background-size: contain;
 
@@ -52,7 +53,15 @@ header
   position: relative;
   width: 100%;
   height: 100vh;
+  overflow: auto;
   background-color: $section3_color;
+
+#footer-section
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  background-color: $section4_color;
 
 #logo
   position: absolute;
@@ -68,11 +77,24 @@ header
   bottom: 0%;
   left: 50%;
   transform: translate(-50%, 0%);
-  width: 60rem;
-  height: 40rem;
+  width: 64rem;
+  height: 36rem;
 
-  animation-name: fadeIn;
-  animation-duration: 1s;
+  animation: fadeOut 6s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+#gstar-image
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30rem;
+  height: 15rem;
+
+  animation: fadeIn 6s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 
 #devfest-title
   position: absolute;
@@ -87,14 +109,21 @@ header
   width: 60vh;
   height: 9vh;
 
-#others-title
+#general-title
   font-weight: bold;
-  font-size: 80px;
+  font-size: 5vw;
   position: absolute;
   top: 10%;
   left: 50%;
   transform: translate(-50%, -10%);
   border-bottom: 4px dotted gray;
+
+#message
+  font-size: 2.7vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
 #event-list
   position: absolute;
@@ -119,12 +148,13 @@ header
   padding: 10px;
   margin-right: 10px;
   margin-bottom: 10px;
-  width: 250px;
-  height: 250px;
+  width: 30vh;
+  height: 30vh;
   box-shadow: 0 6px 6px 0 #EEEEEF, 0 6px 6px 0 #EEEEEF;
-  transition: all 0.5s;
+  transition: all ease 0.5s;
 
 .event-info:hover
+  transition: transform(10px, 0px);
   box-shadow: 0 8px 8px 0 #B8B8B9, 0 8px 8px 0 #B8B8B9;
 
 .event-title
@@ -132,7 +162,7 @@ header
   top: 10px;
   left: 10px;
   text-align: left;
-  font-size: 35px;
+  font-size: 3.25vh;
   font-weight: bold;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -141,23 +171,33 @@ header
   position: absolute;
   bottom: 50px;
   left: 10px;
-  font-size: 25px;
+  font-size: 2.5vh;
   text-align: left;
 
 .event-date
   position: absolute;
   bottom: 10px;
   left: 10px;
-  font-size: 30px;
+  font-size: 2.5vh;
 
 .event-price
   position: absolute;
   bottom: 10px;
   right: 10px;
-  font-size: 30px;
+  font-size: 2.5vh;
 
 @keyframes fadeIn
   0%
     opacity: 0;
+  50%
+    opacity: 0;
   100%
     opacity: 1;
+
+@keyframes fadeOut
+  0%
+    opacity: 1;
+  50%
+    opacity: 1;
+  100%
+    opacity: 0;

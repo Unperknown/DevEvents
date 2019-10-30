@@ -7,7 +7,6 @@ var sassMiddleware = require('node-sass-middleware');
 var favicon = require('serve-favicon');
 
 var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
 
 var app = express();
 
@@ -30,7 +29,6 @@ app.use(sassMiddleware({
 app.use(express.static(__dirname + '/public'));
 
 app.use('/', indexRouter);
-app.use('/users', usersRouter);
 
 var forceSsl = require('express-force-ssl');
 
