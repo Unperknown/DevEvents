@@ -28,6 +28,13 @@
             "hyperlink" : "https://ti.to/mdn/mozilla-developer-roadshow-2019-Asia-Seoul"
         },
         {
+            "title" : "kakao FE meetup",
+            "location" : "D.CAMP",
+            "price" : "무료",
+            "date" : "11/13",
+            "hyperlink" : "https://festa.io/events/655"
+        },
+        {
             "title" : "TECH MEETS STARTUP",
             "location" : "코엑스 에셈볼룸",
             "price" : "미기재",

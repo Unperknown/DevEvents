@@ -25,6 +25,10 @@ Everyone can open an issue or pull request anytime.
 
 This website lets people know what events related to developers are held every month.
 
+### Initial Deployment!
+
+<iframe src="https://giphy.com/embed/J2n3nsmSiX8t9l45mj" width="480" height="319" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/J2n3nsmSiX8t9l45mj">via GIPHY</a></p>
+
 ### Daily Progress
 
 #### 10/15 ~ 10/16 - Web Hosting Test Turned Out Well!
@@ -90,6 +94,8 @@ Pros
 Cons
 - 데이터 크롤링에 대한 설계를 해야 한다.
 - 반응형 UI를 추가적으로 적용해야 한다.
+
+#### 10/30 - Initial Deployment!
 
 ## Project 2 - Unperknown's Résumé
 
