@@ -20,6 +20,7 @@ Everyone can open an issue or pull request anytime.
 <img src="https://www.cloudcms.com/images/quickstarts/react/react.df70b005.png" width="225" height="225" />
 <img src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png" width="200" height="120" />
 <img src="https://www.nginx.com/wp-content/uploads/2018/08/NGINX-logo-rgb-large.png" width="200" height="80" />
+<img src="https://www.docker.com/sites/default/files/d8/2019-07/vertical-logo-monochromatic.png" width="225" height="215">
 
 ## Project 1 - Developers' Events Notification
 
@@ -96,6 +97,20 @@ Cons
 - 반응형 UI를 추가적으로 적용해야 한다.
 
 #### 10/30 - Initial Deployment!
+
+현재까지 진행한 스프린트는 다음과 같이 이루어졌다.
+- HTTPS로 연결되는 Nginx 서버에서 Node.js Application을 배포할 수 있도록 하였다.
+- 행사 정보를 알 수 있고 그와 관련된 신청 웹 사이트로 이동할 수 있는 UI를 디자인하고 구현하였다.
+
+다음에 진행해야 할 스프린트 작업 목록은 아래와 같이 정했다.
+- 현재 웹 서비스를 Dockerize한다. (기존에 FTP로 전송하는 배포 프로세스를 더 간편하게 할 것이다.)
+- 행사 관련 정보에 대한 CRUD를 구현한다. (행사 관련 사이트에서 데이터를 크롤링한다, 행사 데이터의 CRUD를 건드리는 관리자 모드를 구현한다, 행사 정보를 유저가 올릴 수 있도록 한다 등)
+- 전체적으로 웹 성능을 최적화할 수 있도록 한다. (Resource를 gzip로 배포한다, CDN(Cloudflare)를 적용한다 등)
+- Domain에 Search Engine Optimization을 적용하여 검색 엔진에 조회될 수 있도록 한다.
+
+#### 10/31 - Web Application Dockerizing... & Search Engine Optimization
+
+웹 서비스 배포 프로세스를 더 간편하게 할 수 있도록 도커라이징을 하고 있다.
 
 ## Project 2 - Unperknown's Résumé
 
