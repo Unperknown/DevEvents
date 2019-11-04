@@ -15,16 +15,16 @@ Everyone can open an issue or pull request anytime.
 
 - [🔗Unperknown](https://github.com/Unperknown)
 
-## 🔑 Technology Stacks
+## Project 1 - Developers' Events Notification
+
+This website lets people know what events related to developers are held every month.
+
+### 🔑 Technology Stacks
 
 <img src="https://www.cloudcms.com/images/quickstarts/react/react.df70b005.png" width="225" height="225" />
 <img src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png" width="200" height="120" />
 <img src="https://www.nginx.com/wp-content/uploads/2018/08/NGINX-logo-rgb-large.png" width="200" height="80" />
 <img src="https://www.docker.com/sites/default/files/d8/2019-07/vertical-logo-monochromatic.png" width="225" height="215">
-
-## Project 1 - Developers' Events Notification
-
-This website lets people know what events related to developers are held every month.
 
 ### Initial Deployment!
 
@@ -112,10 +112,18 @@ Cons
 
 웹 서비스 배포 프로세스를 더 간편하게 할 수 있도록 도커라이징을 하고 있다.
 
-## Project 2 - Unperknown's Résumé
+## Project 2 - Unperknown's Portfolio
 
-Everyone can see Unperknown's résumé at this website.
-(Probably working on around November)
+Everyone can see Unperknown's résumé & portfolio at one website.
+
+### 🔑 Technology Stacks
+
+<img src="https://pbs.twimg.com/media/CZGHPChUAAA3jqE.png" width="225" height="225" />
+<img src="https://miro.medium.com/max/400/1*NgtJ1cJU5TG1oB0qh8_Reg.png" width="225" height="225" />
+
+### Daily Progress
+
+#### 11/4 - Ruby on Rails Server Configuration
 
 ## Project 3 - The School Community with Conversation Service (Progressive Web App)
 
