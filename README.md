@@ -17,8 +17,7 @@ Everyone can open an issue or pull request anytime.
 
 ## 🔑 Technology Stacks
 
-<img src="https://www.cloudcms.com/images/quickstarts/react/react.df70b005.png" width="225" height="225" />
-<img src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png" width="200" height="120" />
+<img src="https://raw.githubusercontent.com/koajs/koa/HEAD/docs/logo.png" width="200" height="200" />
 <img src="https://www.nginx.com/wp-content/uploads/2018/08/NGINX-logo-rgb-large.png" width="200" height="80" />
 <img src="https://www.docker.com/sites/default/files/d8/2019-07/vertical-logo-monochromatic.png" width="225" height="215">
 
