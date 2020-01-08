@@ -1,13 +1,13 @@
 ![author](https://img.shields.io/badge/author-Unperknown-lightgrey.svg)
-![HitCount](http://hits.dwyl.io/Unperknown/MingledJumble.svg)
-![Bitbucket open issues](https://img.shields.io/github/issues/Unperknown/MingledJumble)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/Unperknown/MingledJumble)
-![GitHub](https://img.shields.io/github/license/Unperknown/MingledJumble)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Unperknown/MingledJumble)
+![HitCount](http://hits.dwyl.io/Unperknown/DevEvents.svg)
+![Bitbucket open issues](https://img.shields.io/github/issues/Unperknown/DevEvents)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/Unperknown/DevEvents)
+![GitHub](https://img.shields.io/github/license/Unperknown/DevEvents)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Unperknown/DevEvents)
 
-# MingledJumble
+# DevEvents
 
-A collection of diverse web pages📃 that I wanted to create.😎
+This website lets people know what events related to developers are held every month.
 
 ## 👪 Contributor(s)
 
@@ -15,24 +15,20 @@ Everyone can open an issue or pull request anytime.
 
 - [🔗Unperknown](https://github.com/Unperknown)
 
-## Project 1 - Developers' Events Notification
-
-This website lets people know what events related to developers are held every month.
-
-### 🔑 Technology Stacks
+## 🔑 Technology Stacks
 
 <img src="https://www.cloudcms.com/images/quickstarts/react/react.df70b005.png" width="225" height="225" />
 <img src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png" width="200" height="120" />
 <img src="https://www.nginx.com/wp-content/uploads/2018/08/NGINX-logo-rgb-large.png" width="200" height="80" />
 <img src="https://www.docker.com/sites/default/files/d8/2019-07/vertical-logo-monochromatic.png" width="225" height="215">
 
-### Initial Deployment!
+## Initial Deployment!
 
 <img src="https://media.giphy.com/media/J2n3nsmSiX8t9l45mj/giphy.gif"/>
 
-### Daily Progress
+## Daily Progress
 
-#### 10/15 ~ 10/16 - Web Hosting Test Turned Out Well!
+### 10/15 ~ 10/16 - Web Hosting Test Turned Out Well!
 
 <img src="README-DOC/hosting-success.png" width="1000" height="400" />
 <img src="README-DOC/configurated-domain.png" width="750" height="200" />
@@ -52,13 +48,13 @@ Cons
 - 앞으로 웹 UI/UX를 설계하고 전체적인 디자인을 해야 한다.
 - 웹사이트에 대한 구체적인 요구사항을 정해야 한다.
 
-#### 10/17 - Designed Favicon
+### 10/17 - Designed Favicon
 
 Favicon을 디자인했다.
 
 <img src="README-DOC/favicon.png" width="200" height="200" />
 
-#### 10/18, 10/21 - HTTPS/SSL Connection Configuration
+### 10/18, 10/21 - HTTPS/SSL Connection Configuration
 
 도메인에 대한 SSL 인증서를 구매하여 HTTPS 연결이 되도록 하였다.
 
@@ -71,7 +67,7 @@ Pros
 Cons
 - HTTPS 연결을 위해서 수정해야 할 각 작업들을 파악하는 데 헤매서 시간이 많이 걸렸다.(방화벽 HTTPS 연결 허용, SSL 인증서 설정 등)
 
-#### 10/22 - Main Page Design
+### 10/22 - Main Page Design
 
 메인 페이지에 대한 간단한 프로토타입을 짰다.
 
@@ -83,7 +79,7 @@ Pros
 Cons
 - 저작권에 대한 결정을 해야 한다. 이 웹사이트는 비상업적인 사이트로 저작권은 없는 것으로 처리하려고 한다.
 
-#### 10/25, 10/27 - Loaded JSON Data On Website, Responsive Web UI
+### 10/25, 10/27 - Loaded JSON Data On Website, Responsive Web UI
 
 행사 내용에 대한 JSON Data를 불러오도록 하였다. 현재 일반적인 크기의 브라우저밖에 지원을 안하지만 모바일, 태블릿 등에서도 UI가 깨지지 않도록 해야 한다.
 
@@ -96,7 +92,7 @@ Cons
 - 데이터 크롤링에 대한 설계를 해야 한다.
 - 반응형 UI를 추가적으로 적용해야 한다.
 
-#### 10/30 - Initial Deployment!
+### 10/30 - Initial Deployment!
 
 현재까지 진행한 스프린트는 다음과 같이 이루어졌다.
 - HTTPS로 연결되는 Nginx 서버에서 Node.js Application을 배포할 수 있도록 하였다.
@@ -108,24 +104,6 @@ Cons
 - 전체적으로 웹 성능을 최적화할 수 있도록 한다. (Resource를 gzip로 배포한다, CDN(Cloudflare)를 적용한다 등)
 - Domain에 Search Engine Optimization을 적용하여 검색 엔진에 조회될 수 있도록 한다.
 
-#### 10/31 - Web Application Dockerizing... & Search Engine Optimization
+### 10/31 - Web Application Dockerizing... & Search Engine Optimization
 
 웹 서비스 배포 프로세스를 더 간편하게 할 수 있도록 도커라이징을 하고 있다.
-
-## Project 2 - Unperknown's Portfolio
-
-Everyone can see Unperknown's résumé & portfolio at one website.
-
-### 🔑 Technology Stacks
-
-<img src="https://pbs.twimg.com/media/CZGHPChUAAA3jqE.png" width="225" height="225" />
-<img src="https://miro.medium.com/max/400/1*NgtJ1cJU5TG1oB0qh8_Reg.png" width="225" height="225" />
-
-### Daily Progress
-
-#### 11/4 - Ruby on Rails Server Configuration
-
-## Project 3 - The School Community with Conversation Service (Progressive Web App)
-
-This web-app allows the school community to have communication with each other online.
-(Assuming to start at December or next year)
