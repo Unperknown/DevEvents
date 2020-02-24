@@ -18,10 +18,8 @@ DevEvents는 곧 진행될 개발 행사를 알리는 웹사이트입니다. 주
 ## 🔑 기술 스택
 
 <img src="https://angular.kr/assets/images/logos/angular/angular.svg" width="200" height="200" />
-<img src="https://images.velog.io/post-images/dongwon2/95f04080-3845-11e9-acb0-ebd80ec9a711/10ei2MOQxAzF7krm-v60wnQ.jpeg
-" width="200" height="200" />
-<img src="https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/001/216/square_480/apollo-seeklogo.com_%281%29.png
-" width="200" height="200" />
+<img src="https://images.velog.io/post-images/dongwon2/95f04080-3845-11e9-acb0-ebd80ec9a711/10ei2MOQxAzF7krm-v60wnQ.jpeg" width="200" height="200" />
+<img src="https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/001/216/square_480/apollo-seeklogo.com_%281%29.png" width="200" height="200" />
 
 ## 📬 배포
 
