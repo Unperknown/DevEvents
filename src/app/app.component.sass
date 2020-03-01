@@ -1,24 +1,9 @@
-$background_color : #FFFFFF
-$text_color : #000000
 $header_color : #000000
 $section1_color : #000000
 $section2_color : #FFFFFF
 $section3_color : #FFFFFF
 $section4_color : #FFFFFF
 $event_info_color : #FFFFFF
-
-*
-  padding: 0
-  margin: 0
-
-a
-  text-decoration: none
-  color: $text_color
-
-body
-  color: $text_color
-  background-color: $background_color
-  font-family: 'Noto Sans KR', sans-serif
 
 header
   position: sticky
@@ -143,19 +128,18 @@ header
 .event-info
   display: inline-block
   position: relative
-  border: none
+  border: 0.5px solid gray
   border-radius: 5%
   padding: 10px
   margin-right: 10px
   margin-bottom: 10px
   width: 30vh
   height: 30vh
-  box-shadow: 0 6px 6px 0 #EEEEEF, 0 6px 6px 0 #EEEEEF
   transition: all ease 0.5s
+  background-color: #FFFFFF
 
 .event-info:hover
-  transition: transform(10px, 0px)
-  box-shadow: 0 8px 8px 0 #B8B8B9, 0 8px 8px 0 #B8B8B9
+  box-shadow: 0 2px 2px 0 #B8B8B9, 0 2px 2px 0 #B8B8B9
 
 .event-title
   position: absolute
