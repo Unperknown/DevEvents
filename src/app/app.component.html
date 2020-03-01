@@ -16,14 +16,7 @@
   <section id="devfest-section" style="background-image: url(assets/devfest.jpg);">
     <img id="devfest-title" src="assets/devfest-logo.png" alt="devfest">
     <div id="event-list">
-      <a *ngFor="let event of events" target="_blank" rel="noopener noreferrer" [href]="event.hyperLink">
-        <div class="event-info" style="background-size: cover">
-          <span class="event-title">{{ event.title }}</span>
-          <span class="event-date">📅{{ event.date }}</span>
-          <span class="event-price">{{ event.price }}</span>
-          <span class="event-location">@ {{ event.location }}</span>
-        </div>
-      </a>
+      <events></events>
     </div>
   </section>
   <section id="footer-section">
