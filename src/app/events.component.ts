@@ -1,19 +1,19 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Apollo } from 'apollo-angular';
 import { Subscription } from 'rxjs';
-import { Crawleds } from './types';
+import { Events } from './types';
 
 import gql from 'graphql-tag';
 
 @Component({
   selector: 'events',
   template: `
-    <a *ngFor="let crawled of crawleds" target="_blank" rel="noopener noreferrer" [href]="crawled.hyperLink">
+    <a *ngFor="let event of events" target="_blank" rel="noopener noreferrer" [href]="event.hyperLink" [class.disabled]="event.isValid ? null : true">
       <div class="event-info" style="background-size: cover">
-        <span class="event-title">{{ crawled.title }}</span>
-        <span class="event-date">📅{{ crawled.date }}</span>
-        <span class="event-price">{{ crawled.price }}</span>
-        <span class="event-location">@ {{ crawled.location }}</span>
+        <span class="event-title">{{ event.title }}</span>
+        <span class="event-date">📅{{ event.date }}</span>
+        <span class="event-price">{{ event.price }}</span>
+        <span class="event-location">@ {{ event.location }}</span>
       </div>
     </a>
   `,
@@ -21,7 +21,7 @@ import gql from 'graphql-tag';
 })
 
 export class EventComponent implements OnInit, OnDestroy {
-  crawleds: Crawleds
+  events: Events;
 
   private querySubscription: Subscription;
 
@@ -31,18 +31,21 @@ export class EventComponent implements OnInit, OnDestroy {
     this.querySubscription = this.apollo.watchQuery<any>({
       query: gql`
         query {
-          crawleds {
+          events {
             title
             date
             location
-            price
+            price,
+            imageLink,
+            hyperLink,
+            isValid
           }
         }
       `
     })
       .valueChanges
       .subscribe(({ data, loading }) => {
-        this.crawleds = data.crawleds;
+        this.events = data.events;
       });
   }
   
