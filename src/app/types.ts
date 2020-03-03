@@ -8,10 +8,6 @@ export type Crawled = {
   isValid: boolean;
 }
 
-export type Crawleds = {
-  crawleds: Crawled[];
-}
-
 export type Event = {
   title: string;
   date: string;
@@ -22,14 +18,15 @@ export type Event = {
   isValid: boolean;
 }
 
-export type Events = {
-  events: Event[];
-}
-
 export type Requestor = {
   name: string;
 }
 
-export type Requestors = {
+export type Query = {
+  crawled(id: string): Crawled;
+  crawleds: Crawled[];
+
+  event(id: string): Event;
+  events: Event[];
   requestors: Requestor[];
 }

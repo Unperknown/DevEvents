@@ -1,8 +1,5 @@
 $header_color : #000000
-$section1_color : #000000
-$section2_color : #FFFFFF
-$section3_color : #FFFFFF
-$section4_color : #FFFFFF
+$section_color : #FFFFFF
 $event_info_color : #FFFFFF
 
 header
@@ -14,41 +11,16 @@ header
   height: 5vh
   padding: 1vh
 
-#header-logo-wrapper 
-  position: relative
-  width: 100%
-  height: 100%
-
-#g-star-section
-  position: relative
-  width: 100%
-  height: 100vh
-  background-color: $section1_color
-
-#devfest-section
+section
   position: relative
   width: 100%
   display: block
   overflow: auto
-  height: 140vh
-  background-color: $section2_color
+  height: 95vh
+  background-color: $section_color
   background-size: contain
 
-#others-section
-  position: relative
-  width: 100%
-  height: 100vh
-  overflow: auto
-  background-color: $section3_color
-
-#footer-section
-  position: relative
-  width: 100%
-  height: 100vh
-  overflow: auto
-  background-color: $section4_color
-
-#logo
+header #logo
   position: absolute
   top: 50%
   left: 50%
@@ -56,45 +28,13 @@ header
   width: 10vh
   height: 5vh
   display: block
-  
-#main-image
-  position: absolute
-  bottom: 0%
-  left: 50%
-  transform: translate(-50%, 0%)
-  width: 64rem
-  height: 36rem
 
-  animation: fadeOut 6s
-  animation-iteration-count: infinite
-  animation-direction: alternate
+header #wrapper 
+  position: relative
+  width: 100%
+  height: 100%
 
-#gstar-image
-  position: absolute
-  top: 50%
-  left: 50%
-  transform: translate(-50%, -50%)
-  width: 30rem
-  height: 15rem
-
-  animation: fadeIn 6s
-  animation-iteration-count: infinite
-  animation-direction: alternate
-
-#devfest-title
-  position: absolute
-  top: 10%
-  left: 50%
-  transform: translate(-50%, -10%)
-
-  animation-name: fadeIn
-  animation-duration: 1s
-  transition: all 1s
-
-  width: 60vh
-  height: 9vh
-
-#general-title
+section #title
   font-weight: bold
   font-size: 5vw
   position: absolute
@@ -103,14 +43,7 @@ header
   transform: translate(-50%, -10%)
   border-bottom: 4px dotted gray
 
-#message
-  font-size: 2.7vw
-  position: absolute
-  top: 50%
-  left: 50%
-  transform: translate(-50%, -50%)
-
-#event-list
+section .event-list
   position: absolute
   top: 50%
   left: 50%
@@ -141,47 +74,32 @@ header
 .event-info:hover
   box-shadow: 0 2px 2px 0 #B8B8B9, 0 2px 2px 0 #B8B8B9
 
-.event-title
+.event-info .title
   position: absolute
   top: 10px
   left: 10px
   text-align: left
-  font-size: 3.25vh
+  font-size: 2.75vh
   font-weight: bold
   overflow: hidden
   text-overflow: ellipsis
 
-.event-location
+.event-info .location
   position: absolute
-  bottom: 50px
+  bottom: 70px
   left: 10px
-  font-size: 2.5vh
+  font-size: 2.25vh
   text-align: left
 
-.event-date
+.event-info .date
   position: absolute
   bottom: 10px
   left: 10px
-  font-size: 2.5vh
+  font-size: 2.25vh
+  text-align: left
 
-.event-price
+.event-info .price
   position: absolute
   bottom: 10px
   right: 10px
-  font-size: 2.5vh
-
-@keyframes fadeIn
-  0%
-    opacity: 0
-  50%
-    opacity: 0
-  100%
-    opacity: 1
-
-@keyframes fadeOut
-  0%
-    opacity: 1
-  50%
-    opacity: 1
-  100%
-    opacity: 0
+  font-size: 2.25vh
