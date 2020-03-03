@@ -1,11 +1,13 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { EventComponent } from './events.component';
 import { GraphQLModule } from './graphql.module';
 import { HttpClientModule } from '@angular/common/http';
+
+import { AppComponent } from './app.component';
+import { EventComponent } from './events.component';
+import { CrawledsComponent } from './crawleds.component';
+import { AddCrawledComponent } from './mutates.component';
 
 @NgModule({
   imports: [
@@ -16,7 +18,9 @@ import { HttpClientModule } from '@angular/common/http';
   ],
   declarations: [
     AppComponent,
-    EventComponent
+    EventComponent,
+    CrawledsComponent,
+    AddCrawledComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
