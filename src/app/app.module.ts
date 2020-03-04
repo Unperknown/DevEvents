@@ -5,9 +5,6 @@ import { GraphQLModule } from './graphql.module';
 import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
-import { EventComponent } from './events.component';
-import { CrawledsComponent } from './crawleds.component';
-import { AddCrawledComponent } from './mutates.component';
 
 @NgModule({
   imports: [
@@ -17,10 +14,7 @@ import { AddCrawledComponent } from './mutates.component';
     HttpClientModule
   ],
   declarations: [
-    AppComponent,
-    EventComponent,
-    CrawledsComponent,
-    AddCrawledComponent
+    AppComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

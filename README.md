@@ -7,7 +7,7 @@
 
 # DevEvents
 
-DevEvents는 곧 진행될 개발 행사를 알리는 웹사이트입니다. 주요 Front-end 기술로 Angular를 사용하였으며 Koa 기반의 서버 API와 연동됩니다.
+DevEvents는 곧 진행될 개발 행사를 알리는 웹사이트입니다. 주요 Front-end 기술로 Angular를 사용하였으며 Koa 기반의 GraphQL 서버와 연동됩니다.
 
 ## 👪 기여자
 
@@ -29,7 +29,13 @@ DevEvents는 곧 진행될 개발 행사를 알리는 웹사이트입니다. 주
 
 #### 개발 일지(2/24 ~)
 
-##### 2/24 ~ 2/25 - Angular 적용
+##### 2/24 ~ 2/25 - Angular로 마이그레이션
+
+시범적으로 개발한 Front-end 부분을 Angular로 마이그레이션하였다.
+
+##### 2/29 ~ 3/4 - GraphQL 연동
+
+Apollo Client 패키지로 클라이언트에서 GraphQL 쿼리 및 뮤테이션을 요청하고 받을 수 있도록 하였다.
 
 ### 1차 배포 - 시범작(11/1 ~ 11/31)
 

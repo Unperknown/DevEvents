@@ -8,27 +8,7 @@ export interface Crawled {
   isValid: boolean;
 }
 
-export interface CrawledInput {
-  title: string;
-  date: string;
-  location: string;
-  price: string;
-  hyperLink: string;
-  imageLink: string;
-  isValid: boolean;
-}
-
 export interface Event {
-  title: string;
-  date: string;
-  location: string;
-  price: string;
-  hyperLink: string;
-  imageLink: string;
-  isValid: boolean;
-}
-
-export interface EventInput {
   title: string;
   date: string;
   location: string;
