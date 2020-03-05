@@ -10,19 +10,14 @@ import gql from 'graphql-tag';
 @Component({
   selector: 'app-events',
   template: `
-    <section>
-      <h1 class="title">Events</h1>
-      <div class="list">
-        <a *ngFor="let event of (events | async)" target="_blank" rel="noopener noreferrer" [href]="event.hyperLink" [class.disabled]="event.isValid ? null : true">
-          <div class="event-info" style="background-size: cover">
-            <span id="title">{{ event.title }}</span>
-            <span id="date">📅{{ event.date }}</span>
-            <span id="price">{{ event.price }}</span>
-            <span id="location">@ {{ event.location }}</span>
-          </div>
-        </a>
-      </div>
-    </section>
+    <div class="list-wrapper">
+      <a *ngFor="let event of (events | async)" class="event-info" style="background-size: cover" [href]="event.hyperLink" [class.disabled]="event.isValid ? null : true">
+        <div id="title">{{ event.title }}</div>
+        <div id="location">@ {{ event.location }}</div>
+        <div id="date">📅{{ event.date }}</div>
+        <div id="price">{{ event.price }}</div>
+      </a>
+    </div>
   `,
   styleUrls: ['./app.component.sass']
 })
