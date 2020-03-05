@@ -13,12 +13,12 @@ import gql from 'graphql-tag';
     <section>
       <h1 class="title">Events</h1>
       <div class="list">
-        <a *ngFor="let event of events | async" target="_blank" rel="noopener noreferrer" [href]="event.hyperLink" [class.disabled]="event.isValid ? null : true">
+        <a *ngFor="let event of (events | async)" target="_blank" rel="noopener noreferrer" [href]="event.hyperLink" [class.disabled]="event.isValid ? null : true">
           <div class="event-info" style="background-size: cover">
-            <span class="title">{{ event.title }}</span>
-            <span class="date">📅{{ event.date }}</span>
-            <span class="price">{{ event.price }}</span>
-            <span class="location">@ {{ event.location }}</span>
+            <span id="title">{{ event.title }}</span>
+            <span id="date">📅{{ event.date }}</span>
+            <span id="price">{{ event.price }}</span>
+            <span id="location">@ {{ event.location }}</span>
           </div>
         </a>
       </div>

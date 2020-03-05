@@ -1,15 +1,11 @@
-$header_color : #000000
-$section_color : #FFFFFF
-$event_info_color : #FFFFFF
-
 header
-  position: fixed
+  position: absolute
   top: 0
   z-index: 1
-  background-color: $header_color
   width: 100%
-  height: 5vh
+  height: 6vh
   padding: 1vh
+  border-bottom: 1.25px solid lightgray
 
 section
   position: relative
@@ -17,16 +13,10 @@ section
   display: block
   overflow: auto
   height: 95vh
-  background-color: $section_color
-  background-size: contain
 
 header #logo
-  position: absolute
-  top: 50%
-  left: 50%
-  transform: translate(-50%, -50%)
-  width: 10vh
-  height: 5vh
+  width: 6vh
+  height: 6vh
   display: block
 
 header #wrapper 
@@ -36,12 +26,12 @@ header #wrapper
 
 section .title
   font-weight: bold
-  font-size: 7.5vh
+  font-size: 7vh
   position: absolute
   top: 10%
   left: 50%
   transform: translate(-50%, -10%)
-  border-bottom: 4px dotted gray
+  border-bottom: 3px dotted gray
 
 section .list
   position: absolute
@@ -61,20 +51,19 @@ section .list
 .event-info
   display: inline-block
   position: relative
-  border: 0.5px solid gray
+  border: 1.25px solid lightgray
   border-radius: 5%
   padding: 10px
   margin-right: 10px
   margin-bottom: 10px
   width: 30vh
   height: 30vh
-  transition: all ease 0.5s
-  background-color: #FFFFFF
+  transition: all ease 0.25s
 
 .event-info:hover
-  box-shadow: 0 1px 1px 0 #B8B8B9, 0 1px 1px 0 #B8B8B9
+  border: 1.25px solid darkcyan
 
-.event-info .title
+.event-info #title
   position: absolute
   top: 10px
   left: 10px
@@ -84,21 +73,21 @@ section .list
   overflow: hidden
   text-overflow: ellipsis
 
-.event-info .location
+.event-info #location
   position: absolute
   bottom: 70px
   left: 10px
   font-size: 2.25vh
   text-align: left
 
-.event-info .date
+.event-info #date
   position: absolute
   bottom: 10px
   left: 10px
   font-size: 2.25vh
   text-align: left
 
-.event-info .price
+.event-info #price
   position: absolute
   bottom: 10px
   right: 10px

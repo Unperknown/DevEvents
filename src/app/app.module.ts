@@ -5,6 +5,7 @@ import { GraphQLModule } from './graphql.module';
 import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
+import { EventComponent } from './events.component';
 
 @NgModule({
   imports: [
@@ -14,7 +15,8 @@ import { AppComponent } from './app.component';
     HttpClientModule
   ],
   declarations: [
-    AppComponent
+    AppComponent,
+    EventComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
