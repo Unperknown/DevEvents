@@ -37,6 +37,10 @@ DevEvents는 곧 진행될 개발 행사를 알리는 웹사이트입니다. 주
 
 Apollo Client 패키지로 클라이언트에서 GraphQL 쿼리 및 뮤테이션을 요청하고 받을 수 있도록 하였다.
 
+##### 3/5 ~ 3/7 - 웹페이지 디자인
+
+##### 3/8 ~ 3/10 - Angular 라우팅 설정
+
 ### 1차 배포 - 시범작(11/1 ~ 11/31)
 
 <img src="https://media.giphy.com/media/J2n3nsmSiX8t9l45mj/giphy.gif"/>
